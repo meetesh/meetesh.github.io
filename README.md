@@ -1,1 +1,0 @@
-## Blog about programing ##
