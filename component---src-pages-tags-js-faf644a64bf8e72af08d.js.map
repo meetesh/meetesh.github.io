@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/tags.js"],"names":["Tags"],"mappings":"2FAAA,wEAEe,SAASA,IACtB,OAAO","file":"component---src-pages-tags-js-faf644a64bf8e72af08d.js","sourcesContent":["import React from \"react\"\n\nexport default function Tags() {\n  return <>Hello this is where our tags will be.</>\n}\n"],"sourceRoot":""}
