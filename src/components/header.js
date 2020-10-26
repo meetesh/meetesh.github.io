@@ -1,9 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 import "../styles/header.css"
-export default function Header() {
+export default function Header(props) {
+  const title = props.pageName ? "| " + props.pageName : ""
   return (
     <header className="main-header">
+      <Helmet title={`Meetesh's Blog ${title}`} />
+
       <h1 className="main-header__h1">Meetesh's blog</h1>
       <nav>
         <ul className="main-header__ul">

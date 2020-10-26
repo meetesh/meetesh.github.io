@@ -11,7 +11,7 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
     <>
-        <Header  />
+        <Header pageName="Home" />
         <BlogPostList posts={posts} />
         <Footer />
     </>

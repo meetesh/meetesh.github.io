@@ -26,9 +26,17 @@ export const AboutMe = () => {
         <tr>
           <td>Social</td>
           <td>
-            <a href="https://www.twitter.com/itsmeetesh" target="__blank">Twitter</a>,
-            <a href="https://www.linkedin.com/in/itsmeetesh" target="__blank">LinkedIn</a>,
-            <a href="https://www.github.com/meetesh" target="__blank">Github</a>
+            <a href="https://www.twitter.com/itsmeetesh" target="__blank">
+              Twitter
+            </a>
+            ,
+            <a href="https://www.linkedin.com/in/itsmeetesh" target="__blank">
+              LinkedIn
+            </a>
+            ,
+            <a href="https://www.github.com/meetesh" target="__blank">
+              Github
+            </a>
           </td>
         </tr>
       </table>
@@ -36,4 +44,4 @@ export const AboutMe = () => {
   )
 }
 
-export default withHeaderAndFooter(AboutMe)
+export default withHeaderAndFooter(AboutMe, "About Me!")

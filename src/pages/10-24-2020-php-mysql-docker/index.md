@@ -1,5 +1,5 @@
 ---
-path: "/hello-world"
+path: "/10-24-2020-php-mysql-docker"
 date: 2020-10-20T17:12:33.962Z
 title: "PHP and MySQL on Docker"
 categories: 'web development'

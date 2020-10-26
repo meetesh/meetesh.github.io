@@ -12,7 +12,7 @@ export default function Template({ data }) {
     <>
       <Header />
       <div className="blog-post-container">
-        <Helmet title={`Meetesh Kumawat - ${post.frontmatter.title}`} />
+        <Helmet title={`Meetesh's Blog | ${post.frontmatter.title}`} />
         <div className="blog-post">
           <h2>{post.frontmatter.title}</h2>
           <div
