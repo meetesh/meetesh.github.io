@@ -13,7 +13,7 @@ export const AboutMe = () => {
         <tr>
           <td>About</td>
           <td>
-            I am Software Developer, working for Thoughtworks. I have total{" "}
+            I am Software Developer, working with Thoughtworks. I have total{" "}
             {new Date().getFullYear() - 2016} years of experience. I like
             programming and love teaching about it. I also like to do swimming
             and playing chess.
