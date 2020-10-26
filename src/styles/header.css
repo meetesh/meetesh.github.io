@@ -1,0 +1,37 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.main-header{
+  margin-bottom: 40px;
+}
+
+
+.main-header__h1 {
+  margin: 10px 0;
+}
+
+.main-header__ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-header__ul li {
+  padding: 2px 0;
+  margin-right: 10px;
+  list-style: none;
+  display: inline;
+}
+
+.main-header__ul li a{
+  color: #a52a2a;
+  text-decoration: none;
+}
+
+.main-header__ul li a:hover{
+  color: #0000ff;
+  text-decoration: underline;
+}
+

@@ -1,0 +1,18 @@
+.intro-table{
+    border-collapse: collapse;
+    /* border: 1px solid black; */
+}
+
+.intro-table td{
+    /* border: 1px solid black; */
+    padding: 5px;
+    vertical-align: 0;
+}
+
+.intro-table tr > :first-child {
+    font-weight: bold;
+}
+
+.intro-table tr > :first-child::after{
+    content: ": ";
+}

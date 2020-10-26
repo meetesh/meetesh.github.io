@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+  }
+  
+
+body {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    min-height: 87%;
+    width: 20em;
+  }
+
+
+@media only screen and (min-width: 43em) {
+  body {
+    width: 40em;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+  body {
+    width: 60em;
+  }
+}
+
+@media only screen and (min-width: 82em) {
+  body {
+    width: 50em;
+  }
+}
